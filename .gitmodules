@@ -1,9 +1,0 @@
-[submodule "plugins/clean-architecture-ios"]
-	path = plugins/clean-architecture-ios
-	url = https://github.com/naudecruywagen/clean-architecture-ios.git
-[submodule "plugins/ios-design-patterns"]
-	path = plugins/ios-design-patterns
-	url = https://github.com/naudecruywagen/ios-design-patterns.git
-[submodule "plugins/tdd"]
-	path = plugins/tdd
-	url = https://github.com/naudecruywagen/tdd-skill.git
