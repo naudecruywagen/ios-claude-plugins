@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+          token: ${{ secrets.GH_PAT }}
 
       - name: Package marketplace ZIP
         run: ./scripts/package.sh ios-claude-plugins.zip
