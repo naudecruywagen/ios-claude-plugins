@@ -7,7 +7,7 @@
     "email": "naude@hey.com"
   },
   "metadata": {
-    "description": "A personal collection of Claude Code plugins for iOS/Swift development covering Clean Architecture, design patterns, and Test-Driven Development."
+    "description": "A personal collection of Claude Code plugins for iOS/Swift development covering Clean Architecture, design patterns, TDD, Swift Concurrency, and SwiftUI."
   },
   "plugins": [
     {
@@ -86,6 +86,56 @@
         "xctest",
         "swift-testing",
         "test-driven-development"
+      ]
+    },
+    {
+      "name": "swift-concurrency",
+      "description": "Expert guidance on Swift Concurrency: async/await, actors, tasks, Sendable conformance, and Swift 6 migration patterns.",
+      "source": {
+        "source": "github",
+        "repo": "AvdLee/Swift-Concurrency-Agent-Skill"
+      },
+      "skills": [
+        "./swift-concurrency"
+      ],
+      "author": {
+        "name": "Antoine van der Lee"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "swift",
+        "concurrency",
+        "async-await",
+        "actors",
+        "sendable",
+        "swift6",
+        "data-races",
+        "threading"
+      ]
+    },
+    {
+      "name": "swiftui-expert",
+      "description": "Expert SwiftUI guidance for state management, view composition, performance, and Liquid Glass patterns.",
+      "source": {
+        "source": "github",
+        "repo": "AvdLee/SwiftUI-Agent-Skill"
+      },
+      "skills": [
+        "./swiftui-expert-skill"
+      ],
+      "author": {
+        "name": "Antoine van der Lee"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "swift",
+        "swiftui",
+        "ios",
+        "state-management",
+        "performance",
+        "liquid-glass"
       ]
     }
   ]
