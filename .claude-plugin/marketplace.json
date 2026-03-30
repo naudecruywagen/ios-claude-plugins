@@ -7,14 +7,19 @@
     "email": "naude@hey.com"
   },
   "metadata": {
-    "description": "A curated collection of Claude Code plugins for iOS/Swift development covering Clean Architecture, design patterns, and Test-Driven Development."
+    "description": "A personal collection of Claude Code plugins for iOS/Swift development covering Clean Architecture, design patterns, and Test-Driven Development."
   },
   "plugins": [
     {
       "name": "clean-architecture-ios",
       "description": "Expert guidance on Clean Architecture and SOLID principles for iOS/Swift development.",
-      "repository": "https://github.com/naudecruywagen/clean-architecture-ios",
-      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "naudecruywagen/clean-architecture-ios"
+      },
+      "skills": [
+        "./.claude/skills/clean-architecture-ios"
+      ],
       "author": {
         "name": "Naude Cruywagen"
       },
@@ -28,17 +33,18 @@
         "dependency-injection",
         "composition-root",
         "separation-of-concerns"
-      ],
-      "source": "./plugins/clean-architecture-ios",
-      "skills": [
-        "./plugins/clean-architecture-ios/.claude/skills/clean-architecture-ios"
       ]
     },
     {
       "name": "ios-design-patterns",
       "description": "Expert guidance on design patterns for iOS/Swift development.",
-      "repository": "https://github.com/naudecruywagen/ios-design-patterns",
-      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "naudecruywagen/ios-design-patterns"
+      },
+      "skills": [
+        "./.claude/skills/ios-design-patterns"
+      ],
       "author": {
         "name": "Naude Cruywagen"
       },
@@ -55,17 +61,18 @@
         "presenter",
         "proxy",
         "data-mapper"
-      ],
-      "source": "./plugins/ios-design-patterns",
-      "skills": [
-        "./plugins/ios-design-patterns/.claude/skills/ios-design-patterns"
       ]
     },
     {
       "name": "tdd",
       "description": "Expert guidance on Test-Driven Development with comprehensive iOS/Swift testing patterns.",
-      "repository": "https://github.com/naudecruywagen/tdd-skill",
-      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "naudecruywagen/tdd-skill"
+      },
+      "skills": [
+        "./.claude/skills/tdd"
+      ],
       "author": {
         "name": "Naude Cruywagen"
       },
@@ -79,10 +86,6 @@
         "xctest",
         "swift-testing",
         "test-driven-development"
-      ],
-      "source": "./plugins/tdd",
-      "skills": [
-        "./plugins/tdd/.claude/skills/tdd"
       ]
     }
   ]
