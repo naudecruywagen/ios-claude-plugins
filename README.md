@@ -1,6 +1,8 @@
 # iOS Claude Plugins Marketplace
 
-A curated collection of Claude Code plugins for iOS/Swift development.
+A personal collection of Claude Code plugins for iOS/Swift development.
+
+> **Note:** This is a private marketplace. The plugin source repos are private and not publicly available. This repo is public only so Claude Desktop can read the marketplace manifest.
 
 ## Plugins
 
@@ -10,23 +12,9 @@ A curated collection of Claude Code plugins for iOS/Swift development.
 | **ios-design-patterns** | Design patterns (Adapter, Composite, Strategy, Factory, Presenter, Proxy, etc.) |
 | **tdd** | Test-Driven Development with comprehensive iOS/Swift testing patterns |
 
-## Installation
-
-Install the marketplace in Claude Code:
-
-```
-claude plugin install --marketplace https://github.com/naudecruywagen/ios-claude-plugins
-```
-
-Or install individual plugins from their source repos:
-
-- [clean-architecture-ios](https://github.com/naudecruywagen/clean-architecture-ios)
-- [ios-design-patterns](https://github.com/naudecruywagen/ios-design-patterns)
-- [tdd-skill](https://github.com/naudecruywagen/tdd-skill)
-
 ## Development
 
-Each plugin lives in its own repo and is included here as a git submodule under `plugins/`.
+Each plugin lives in its own private repo and is included here as a git submodule under `plugins/`.
 
 ### Updating plugins
 
@@ -45,8 +33,8 @@ git submodule update --remote --merge
 Tag a version to trigger the GitHub Actions release workflow:
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.0.x
+git push origin v1.0.x
 ```
 
 ## License
