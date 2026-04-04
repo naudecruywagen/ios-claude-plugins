@@ -137,6 +137,31 @@
         "performance",
         "liquid-glass"
       ]
+    },
+    {
+      "name": "xcode-preview-driven-ui",
+      "description": "Use Xcode's preview rendering to iterate on SwiftUI UI changes visually, eliminating slow screenshot-based feedback loops.",
+      "source": {
+        "source": "github",
+        "repo": "naudecruywagen/xcode-preview-driven-ui"
+      },
+      "skills": [
+        "./.claude/skills/xcode-preview-driven-ui"
+      ],
+      "author": {
+        "name": "Naude Cruywagen"
+      },
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "swiftui",
+        "xcode",
+        "preview",
+        "ui",
+        "ios",
+        "layout",
+        "visual-iteration"
+      ]
     }
   ]
 }
