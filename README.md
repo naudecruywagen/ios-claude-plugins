@@ -11,6 +11,9 @@ A personal collection of Claude Code plugins for iOS/Swift development.
 | **clean-architecture-ios** | Clean Architecture and SOLID principles for iOS/Swift |
 | **ios-design-patterns** | Design patterns (Adapter, Composite, Strategy, Factory, Presenter, Proxy, etc.) |
 | **tdd** | Test-Driven Development with comprehensive iOS/Swift testing patterns |
+| **swift-concurrency** | Swift Concurrency: async/await, actors, Sendable conformance, Swift 6 migration |
+| **swiftui-expert** | SwiftUI state management, view composition, performance, Liquid Glass patterns |
+| **xcode-preview-driven-ui** | Use Xcode's preview rendering to iterate on SwiftUI UI changes visually |
 
 ## Development
 
